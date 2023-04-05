@@ -3,7 +3,7 @@ header('Content-Type: text/html; charset=utf-8');
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -13,29 +13,20 @@ header('Content-Type: text/html; charset=utf-8');
     <title>Exercícios</title>
 </head>
 
-<body class=".bg-dark-subtle" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
-    <header class="text-center bg-dark text-white p-3">
+<body class="" style="background-color: #000C12;">
+    <header class="container text-center text-white p-3">
         <h1>Exercícios TPA</h1>
     </header>
 
-    <div>
-        <div class="container-fluid d-flex justify-content-center text-center">
-            <div class="row">
-                <div class="card m-2" style="width: 18rem;">
-                    <img src="images/peaks.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+    <div class="container text-start">
+        <div class="card text-white shadow-lg border border-0" style="width: 18rem;">
+            <img src="images/wave.png" alt="" class="card-img">
+            <div class="card-img-overlay">
+                <div class="card-body p-1">
+                    <h5 class="card-title">Calculadora PHP</h5>
+                    <p class="card-text">Calculadora simples, feita utilizando HTML e PHP</p>
+                    <a href="#" class="btn btn-outline-primary">Go somewhere</a>
                 </div>
-                <div class="card m-2" style="width: 18rem;">
-                    <img src="images/peaks.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
             </div>
         </div>
     </div>
