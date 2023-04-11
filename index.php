@@ -14,6 +14,17 @@ header('Content-Type: text/html; charset=utf-8');
     <title>Exercícios</title>
 </head>
 
+<!-- Estilo dos símbolos -->
+<style>
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL'1,
+            'wght'400,
+            'GRAD'0,
+            'opsz'48
+    }
+</style>
+
 <body class="">
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
@@ -34,11 +45,19 @@ header('Content-Type: text/html; charset=utf-8');
                     </li>
                 </ul>
 
-                <div class="text-center d-flex flex-wrap justify-content-end align-items-center text-white  container-fluid">
-                    <span class="text-white nav-bar-text material-symbols-outlined">
-                        person
-                    </span>
-                    <p class="navbar-text m-0 text-white">Usuário</p>
+                <div class="text-center d-flex flex-wrap justify-content-end align-items-center text-white gap-4  container-fluid">
+                    <div>
+                        <span class="text-white nav-bar-text material-symbols-outlined">
+                            person
+                        </span>
+                        <a href="#" class="navbar-text m-0 text-white">Usuário</a>
+                    </div>
+                    <div>
+                        <span class="text-white nav-bar-text material-symbols-outlined">
+                            logout
+                        </span>
+                        <a href="#" class="navbar-text m-0 text-white">LogOut</a>
+                    </div>
                 </div>
 
                 <!-- 
@@ -47,7 +66,7 @@ header('Content-Type: text/html; charset=utf-8');
                     <button class="btn btn-outline-success" type="submit">Pesquisa</button>
                 </form>
                 -->
-                
+
             </div>
         </div>
     </nav>
