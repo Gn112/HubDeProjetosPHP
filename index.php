@@ -25,7 +25,7 @@ header('Content-Type: text/html; charset=utf-8');
     }
 </style>
 
-<body class="">
+<body class="bg-dark">
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-white text-center" href="#">
@@ -76,28 +76,44 @@ header('Content-Type: text/html; charset=utf-8');
         <div class="card" style="width: 18rem;">
             <img src="images/wave.png" class="card-img-top" alt="...">
             <div class="card-body bg-dark">
-                <h5 class="card-title text-light">Card title</h5>
+                <h5 class="card-title text-light">Calculadora PHP</h5>
                 <p class="card-text text-light">Calculadora simples feita em PHP</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <a href="projetos.php?dir=projetos&file=calculadoraphp" class="btn btn-outline-primary">Visualizar</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Calculadora simples feita em PHP</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+            <img src="images/wave.png" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+                <h5 class="card-title text-light">Calculadora BOOTSTRAP</h5>
+                <p class="card-text text-light">Calculadora simples feita em BOOTSTRAP e PHP</p>
+                <a href="projetos.php?dir=projetos&file=calculadorabootstrap" class="btn btn-outline-primary">Visualizar</a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Calculadora simples feita em PHP</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+            <img src="images/wave.png" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+                <h5 class="card-title text-light">Lista IF</h5>
+                <p class="card-text text-light">Exercícios de lógica em PHP</p>
+                <a href="projetos.php?dir=projetos&file=lista" class="btn btn-outline-primary">Visualizar</a>
             </div>
         </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/wave.png" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+                <h5 class="card-title text-light">Página de Login</h5>
+                <p class="card-text text-light">Página de login feita com BootStrap</p>
+                <a href="projetos.php?dir=projetos&file=login" class="btn btn-outline-primary">Visualizar</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/wave.png" class="card-img-top" alt="...">
+            <div class="card-body bg-dark">
+                <h5 class="card-title text-light">Primeiro Projeto</h5>
+                <p class="card-text text-light">Projeto de operações básicas em PHP</p>
+                <a href="projetos.php?dir=projetos&file=primeiro" class="btn btn-outline-primary">Visualizar</a>
+            </div>
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
