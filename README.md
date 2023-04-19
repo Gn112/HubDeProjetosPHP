@@ -1,2 +1,1 @@
-# PaginaDinamica
- 
+# HUB DE PROJETOS PHP
